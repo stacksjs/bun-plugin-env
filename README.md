@@ -1,46 +1,29 @@
-<p align="center"><img src=".github/art/cover_ts_starter.png" alt="Social Card of TypeScript Starter"></p>
+# Bun Plugin - .env loader
 
-[![npm version][npm-version-src]][npm-version-href]
-[![GitHub Actions][github-actions-src]][github-actions-href]
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-<!-- [![npm downloads][npm-downloads-src]][npm-downloads-href] -->
-<!-- [![Codecov][codecov-src]][codecov-href] -->
+## ☘️ Features
 
-# bun-ts-starter
+- Simple `.env` file loader
+- Supports a wide variety of .env types
+  - `.env`, `.env.local`, `.env.staging`, `.env.development`, `.env.dev`, `.env.beta` etc.
 
-This is an opinionated TypeScript Starter kit to help kick-start development of your next Bun package.
-
-## 💡 Get Started
-
-Luckily, it's incredibly easy to get your package development started:
+## 🤖 Usage
 
 ```bash
-# you may use this GitHub template or the following command:
-bunx degit stacksjs/bun-ts-starter my-pkg
-cd my-pkg
-
- # if you don't have pnpm installed, run `npm i -g pnpm`
-bun i # install all deps
-bun run build # builds the library for production-ready use
-
-# how to create a git commit?
-git add . # select the changes you want to commit
-bun run commit # then simply answer the questions
-
-# after you have successfully committed, you may create a "release"
-bun run release # automates git commits, versioning, and changelog generations
+bun install -d bun-plugin-env
 ```
 
-### Developer Experience (DX)
+You may now use it in your project:
 
-This Starter Kit comes pre-configured with the following:
+```ts
+import env from './.env'
 
-- [Powerful Build Process](https://github.com/oven-sh/bun) - via Bun
-- [Fully Typed APIs](https://www.typescriptlang.org/) - via TypeScript 5.1
-- [Be a Good Commitizen](https://www.npmjs.com/package/git-cz) - pre-configured Commitizen & git-cz setup to simplify semantic git commits, versioning, and changelog generations
-- [Built With Testing In Mind](https://bun.sh/docs/cli/test) - pre-configured unit-testing powered by [Bun](https://bun.sh/docs/cli/test)
-- [Renovate](https://renovatebot.com/) - optimized & automated PR dependency updates
-- [GitHub Actions](https://github.com/features/actions) - runs your CI _(fixes code style issues, tags releases & creates its changelogs, runs the test suite, etc.)_
+// Accessing environment variables
+const apiKey = env.API_KEY
+const databaseUrl = env.DATABASE_URL
+
+console.log(`API Key: ${apiKey}`)
+console.log(`Database URL: ${databaseUrl}`)
+```
 
 ## 🧪 Testing
 
@@ -50,35 +33,33 @@ bun test
 
 ## 📈 Changelog
 
-Please see our [releases](https://github.com/stackjs/bun-ts-starter/releases) page for more information on what has changed recently.
+Please see our [releases](https://github.com/stacksjs/bun-plugin-env/releases) page for more information on what has changed recently.
 
-## 💪🏼 Contributing
+## 🚜 Contributing
 
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
+Please review the [Contributing Guide](https://github.com/stacksjs/contributing) for details.
 
 ## 🏝 Community
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Discussions on GitHub](https://github.com/stacksjs/bun-ts-starter/discussions)
+[Discussions on GitHub](https://github.com/stacksjs/stacks/discussions)
 
 For casual chit-chat with others using this package:
 
 [Join the Stacks Discord Server](https://discord.gg/stacksjs)
 
+## 🙏🏼 Credits
+
+Many thanks to the following core technologies & people who have contributed to this package:
+
+- [Mot](https://github.com/motdotla)
+- [dotenv](https://github.com/motdotla/dotenv)
+- [Chris Breuer](https://github.com/chrisbbreuer)
+- [All Contributors](../../contributors)
+
 ## 📄 License
 
-The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
+The MIT License (MIT). Please see [LICENSE](https://github.com/stacksjs/stacks/tree/main/LICENSE.md) for more information.
 
-Made with ❤️
-
-<!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@stacksjs/dummy-bun-ts-pkg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/@stacksjs/dummy-bun-ts-pkg
-[npm-downloads-src]: https://img.shields.io/npm/dm/@stacksjs/dummy-bun-ts-pkg?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/@stacksjs/dummy-bun-ts-pkg
-[github-actions-src]: https://img.shields.io/github/actions/workflow/status/stacksjs/bun-ts-starter/ci.yml?style=flat-square&branch=main
-[github-actions-href]: https://github.com/stacksjs/bun-ts-starter/actions?query=workflow%3Aci
-
-<!-- [codecov-src]: https://img.shields.io/codecov/c/gh/stacksjs/bun-ts-starter/main?style=flat-square
-[codecov-href]: https://codecov.io/gh/stacksjs/bun-ts-starter -->
+Made with 💙

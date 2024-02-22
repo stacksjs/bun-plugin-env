@@ -68,36 +68,21 @@
     "yaml",
     "toml"
   ],
-  "cSpell.words": [
-    "antfu",
-    "booleanish",
-    "bumpp",
-    "bunx",
-    "changelogithub",
-    "codecov",
-    "commitlint",
-    "commitlintrc",
-    "composables",
-    "degit",
-    "deps",
-    "destructurable",
-    "entrypoints",
-    "heroicons",
-    "openweb",
-    "outdir",
-    "pausable",
-    "prefetch",
-    "preinstall",
-    "socio",
-    "stacksjs",
-    "typecheck",
-    "unplugin",
-    "unref",
-    "upath",
-    "vite",
-    "vitebook",
-    "vitejs",
-    "vue-demi",
-    "vueuse"
-  ]
+  "cSpell.ignorePaths": [
+    "node_modules",
+    "lang/de.yml"
+  ],
+  "cSpell.dictionaries": [
+    "custom-dictionary"
+  ],
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.customDictionaries": {
+    "bun-plugin-env": {
+      "name": "custom-dictionary",
+      "path": "./.vscode/dictionary.txt",
+      "scope": "user",
+      "addWords": true
+    },
+    "custom": true // enable the `custom` dictionary
+  },
 }
