@@ -20,13 +20,13 @@ jobs:
         with:
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Install bun
+      - name: Install Bun
         uses: oven-sh/setup-bun@v1
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: bun install
 
-      - name: Build the release
+      - name: Build the Release
         run: bun run build
 
       - name: Publish to npm
@@ -34,7 +34,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
-      - name: Create GitHub release
+      - name: Create GitHub Release
         run: npx changelogithub
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
