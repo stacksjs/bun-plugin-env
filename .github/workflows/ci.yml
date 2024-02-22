@@ -42,6 +42,8 @@ jobs:
         run: bun --bun run typecheck
 
   test:
+    runs-on: ${{ matrix.os }}
+
     steps:
       - uses: actions/checkout@v4
 
