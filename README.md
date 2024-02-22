@@ -20,6 +20,8 @@ A simple loader for your dotenv files.
 bun install -d bun-plugin-env
 ```
 
+Next, ensure you are preloading the plugin in your `bunfig.toml`:
+
 ```toml
 preload = [
   "./node_modules/bun-plugin-env/src/index.ts",
@@ -66,7 +68,7 @@ For casual chit-chat with others using this package:
 
 ## Postcardware
 
-You will always be free to use any of the Stacks OSS software. We would also love to see which parts of the world Stacks ends up in. _Receiving a post cards makes us happy—we will publish them on our website._
+You will always be free to use any of the Stacks OSS software. We would also love to see which parts of the world Stacks ends up in. _Receiving postcards makes us happy—and we will publish them on our website._
 
 Our address is: Stacks.js, 5710 Crescent Park #107, Playa Vista 90094, CA.
 
