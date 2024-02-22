@@ -1,7 +1,7 @@
 {
   "name": "bun-plugin-env",
   "type": "module",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
@@ -43,12 +43,14 @@
     "commit": "git cz",
     "changelog": "bunx changelogen",
     "prepublishOnly": "bun --bun run build",
-    "release": "bunx changelogen --release",
+    "release": "bunx bumpp package.json --all && bun run changelog",
     "test": "bun test",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@stacksjs/cli": "^0.58.73",
     "@stacksjs/eslint-config": "^0.58.73",
+    "@stacksjs/path": "^0.58.73",
     "@types/bun": "^1.0.6",
     "@types/node": "^20.11.19",
     "changelogen": "^0.5.5",
