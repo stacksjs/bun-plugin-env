@@ -43,7 +43,7 @@
     "commit": "git cz",
     "changelog": "bunx changelogen",
     "prepublishOnly": "bun --bun run build",
-    "release": "bunx bumpp package.json --all",
+    "release": "bunx changelogen --release",
     "test": "bun test",
     "typecheck": "tsc --noEmit"
   },
@@ -51,7 +51,6 @@
     "@stacksjs/eslint-config": "^0.58.73",
     "@types/bun": "^1.0.6",
     "@types/node": "^20.11.19",
-    "bumpp": "^9.3.0",
     "changelogen": "^0.5.5",
     "commitizen": "^4.3.0",
     "cz-git": "^1.8.0",
