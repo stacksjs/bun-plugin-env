@@ -16,6 +16,7 @@ await plugin({
           default: exports,
           ...exports,
         },
+
         loader: 'object', // special loader for JS objects
       }
     })
