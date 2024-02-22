@@ -5,7 +5,8 @@ module.exports = {
   rules: {
     // @see: https://commitlint.js.org/#/reference-rules
     'scope-enum': [
-      2, 'always',
+      2,
+      'always',
       scopes,
     ],
   },
@@ -55,8 +56,8 @@ module.exports = {
     allowCustomIssuePrefixes: true,
     allowEmptyIssuePrefixes: true,
     confirmColorize: true,
-    maxHeaderLength: Infinity,
-    maxSubjectLength: Infinity,
+    maxHeaderLength: Number.POSITIVE_INFINITY,
+    maxSubjectLength: Number.POSITIVE_INFINITY,
     minSubjectLength: 0,
     scopeOverrides: undefined,
     defaultBody: '',

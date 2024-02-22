@@ -84,5 +84,5 @@
       "addWords": true
     },
     "custom": true // enable the `custom` dictionary
-  },
+  }
 }
