@@ -16,9 +16,11 @@ heroicons
 openweb
 outdir
 pausable
+Postcardware
 prefetch
 preinstall
 socio
+Solana
 stacksjs
 typecheck
 unplugin
