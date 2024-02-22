@@ -10,6 +10,7 @@ A simple loader for your dotenv files.
 ## Features
 
 - Simple `.env` file loader
+- Powered by dotenv
 - Supports a wide variety of .env types
   - `.env`, `.env.local`, `.env.staging`, `.env.development`, `.env.dev`, `.env.beta` etc.
 
@@ -17,6 +18,13 @@ A simple loader for your dotenv files.
 
 ```bash
 bun install -d bun-plugin-env
+```
+
+```toml
+preload = [
+  "./node_modules/bun-plugin-env/src/index.ts",
+  # ...
+]
 ```
 
 You may now use it in your project:
@@ -58,11 +66,9 @@ For casual chit-chat with others using this package:
 
 ## Postcardware
 
-You will always be free to use the Stacks framework & any of its over 80 packages. At the same time, we would love to see which parts of the world Stacks ends up in. _We would love to receive a postcard—which we publish on our website._
+You will always be free to use any of the Stacks OSS software. We would also love to see which parts of the world Stacks ends up in. _Receiving a post cards makes us happy—we will publish them on our website._
 
-Our address is: Stacks.js, 5710 Crescent Park #107, Playa Vista 90094, CA
-
-##### _Thanks to Spatie for this wonderful idea._
+Our address is: Stacks.js, 5710 Crescent Park #107, Playa Vista 90094, CA.
 
 ## Sponsors
 
