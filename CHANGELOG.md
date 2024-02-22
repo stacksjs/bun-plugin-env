@@ -1,4 +1,24 @@
 
+## v0.1.4...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-env/compare/v0.1.4...main)
+
+### 🩹 Fixes
+
+- Add missing runs-on ([2b35970](https://github.com/stacksjs/bun-plugin-env/commit/2b35970))
+
+### 🏡 Chore
+
+- Add another missing runs-on ([8532d7a](https://github.com/stacksjs/bun-plugin-env/commit/8532d7a))
+- Add strategy ([978e1d4](https://github.com/stacksjs/bun-plugin-env/commit/978e1d4))
+- Use bunx ([6222dd0](https://github.com/stacksjs/bun-plugin-env/commit/6222dd0))
+- Remove unused matrix ([80f673e](https://github.com/stacksjs/bun-plugin-env/commit/80f673e))
+- Export src ([4f5395b](https://github.com/stacksjs/bun-plugin-env/commit/4f5395b))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 ## v0.1.3...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-env/compare/v0.1.3...main)
