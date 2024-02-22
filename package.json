@@ -2,7 +2,7 @@
   "name": "bun-plugin-env",
   "type": "module",
   "version": "0.2.0",
-  "description": "",
+  "description": "A simple Bun plugin to load .env files as modules.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
   "homepage": "https://github.com/stacksjs/bun-plugin-env#readme",
@@ -53,9 +53,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@stacksjs/cli": "^0.58.73",
     "@stacksjs/eslint-config": "^0.58.73",
-    "@stacksjs/path": "^0.58.73",
     "@types/bun": "^1.0.6",
     "@types/node": "^20.11.19",
     "changelogen": "^0.5.5",
