@@ -9,13 +9,6 @@ on:
     branches:
       - main
 
-env:
-  PR_NUMBER: '${{ github.event.number }}'
-  SOURCE_BRANCH: $GITHUB_HEAD_REF
-  FIXER_BRANCH: auto-fixed/$GITHUB_HEAD_REF
-  TITLE: Apply fixes from JS-CS-Fixer
-  DESCRIPTION: This merge request applies JS code style fixes from an analysis carried out through GitHub Actions.
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
   cancel-in-progress: true
@@ -25,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install bun
+      - name: Install Bun
         uses: oven-sh/setup-bun@v1
 
       - name: Lint
@@ -37,10 +30,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install bun
+      - name: Install Bun
         uses: oven-sh/setup-bun@v1
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: bun install
 
       - name: Typecheck
@@ -50,7 +43,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install bun
+      - name: Install Bun
         uses: oven-sh/setup-bun@v1
 
       - name: Install Dependencies
