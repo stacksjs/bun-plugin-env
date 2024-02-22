@@ -1,9 +1,11 @@
-# bun-plugin-env
+<p align="center"><img src=".github/art/cover.jpg" alt="Social Card of this repo"></p>
 
 [![npm version][npm-version-src]][npm-version-href]
 [![GitHub Actions][github-actions-src]][github-actions-href]
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
+
+# bun-plugin-env
 
 A simple loader for your dotenv files.
 
