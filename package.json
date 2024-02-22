@@ -1,7 +1,7 @@
 {
   "name": "bun-ts-starter",
   "type": "module",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
