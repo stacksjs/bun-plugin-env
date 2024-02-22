@@ -7,6 +7,20 @@
 
 - Adjust cover ([96a41a2](https://github.com/stacksjs/bun-plugin-env/commit/96a41a2))
 - Update image ([a9f10e1](https://github.com/stacksjs/bun-plugin-env/commit/a9f10e1))
+- Release v0.2.0 ([f756e33](https://github.com/stacksjs/bun-plugin-env/commit/f756e33))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
+## v0.2.0...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-env/compare/v0.2.0...main)
+
+### 🏡 Chore
+
+- Adjust cover ([96a41a2](https://github.com/stacksjs/bun-plugin-env/commit/96a41a2))
+- Update image ([a9f10e1](https://github.com/stacksjs/bun-plugin-env/commit/a9f10e1))
 
 ### ❤️ Contributors
 
