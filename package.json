@@ -1,17 +1,17 @@
 {
-  "name": "bun-ts-starter",
+  "name": "bun-plugin-env",
   "type": "module",
   "version": "0.1.1",
   "description": "",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
-  "homepage": "https://github.com/stacksjs/bun-ts-starter#readme",
+  "homepage": "https://github.com/stacksjs/bun-plugin-env#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stacksjs/bun-ts-starter.git"
+    "url": "git+https://github.com/stacksjs/bun-plugin-env.git"
   },
   "bugs": {
-    "url": "https://github.com/stacksjs/bun-ts-starter/issues"
+    "url": "https://github.com/stacksjs/bun-plugin-env/issues"
   },
   "keywords": [
     "dotenv",
@@ -43,7 +43,7 @@
     "commit": "git cz",
     "changelog": "bunx changelogen",
     "prepublishOnly": "bun --bun run build",
-    "release": "bunx --bun bumpp package.json --all",
+    "release": "bunx bumpp package.json --all",
     "test": "bun test",
     "typecheck": "tsc --noEmit"
   },
