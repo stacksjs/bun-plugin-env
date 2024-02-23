@@ -13,6 +13,7 @@ deps
 destructurable
 entrypoints
 heroicons
+lockb
 openweb
 outdir
 pausable
