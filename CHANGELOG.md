@@ -1,4 +1,20 @@
 
+## v0.2.1...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-env/compare/v0.2.1...main)
+
+### 🏡 Chore
+
+- Add cjs ending ([72d1545](https://github.com/stacksjs/bun-plugin-env/commit/72d1545))
+- Use mjs ([2c9cb98](https://github.com/stacksjs/bun-plugin-env/commit/2c9cb98))
+- Cache node_modules ([254d91d](https://github.com/stacksjs/bun-plugin-env/commit/254d91d))
+- Temp only use ubuntu ([0f8b4f4](https://github.com/stacksjs/bun-plugin-env/commit/0f8b4f4))
+- Add missing dep ([27a4a32](https://github.com/stacksjs/bun-plugin-env/commit/27a4a32))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 ## v0.2.0...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-env/compare/v0.2.0...main)
