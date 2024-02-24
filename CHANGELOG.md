@@ -1,4 +1,16 @@
 
+## v0.3.0...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-env/compare/v0.3.0...main)
+
+### 🏡 Chore
+
+- Add dts types ([98e46c7](https://github.com/stacksjs/bun-plugin-env/commit/98e46c7))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 ## v0.2.1...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-env/compare/v0.2.1...main)
