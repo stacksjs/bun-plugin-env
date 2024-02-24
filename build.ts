@@ -11,7 +11,9 @@ await Bun.build({
   target: 'bun',
 
   plugins: [
-    dts(),
+    dts({
+      outDir: './dist',
+    }),
   ],
 })
 
