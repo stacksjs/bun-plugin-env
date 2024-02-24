@@ -41,13 +41,13 @@
     "src"
   ],
   "scripts": {
-    "build": "bun --bun build.ts",
+    "build": "bun build.ts",
     "lint": "bunx eslint .",
     "lint:fix": "bunx eslint . --fix",
     "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
     "commit": "git cz",
     "changelog": "bunx changelogen --output CHANGELOG.md",
-    "prepublishOnly": "bun --bun run build",
+    "prepublishOnly": "bun run build",
     "release": "bun run changelog && bunx bumpp package.json --all",
     "test": "bun test",
     "typecheck": "tsc --noEmit"
@@ -57,6 +57,7 @@
     "@stacksjs/eslint-config": "^0.58.73",
     "@types/bun": "^1.0.6",
     "@types/node": "^20.11.19",
+    "bun-plugin-dts-auto": "^0.4.1",
     "changelogen": "^0.5.5",
     "commitizen": "^4.3.0",
     "cz-git": "^1.8.0",

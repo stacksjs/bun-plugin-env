@@ -2,7 +2,8 @@ import process from 'node:process'
 import { plugin } from 'bun'
 
 await plugin({
-  name: 'ENV',
+  name: 'bun-plugin-env',
+
   async setup(build) {
     (await import('dotenv')).config()
 
