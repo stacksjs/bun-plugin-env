@@ -1,4 +1,16 @@
 
+## v0.4.0...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-env/compare/v0.4.0...main)
+
+### 🏡 Chore
+
+- Adjust build ([618b2de](https://github.com/stacksjs/bun-plugin-env/commit/618b2de))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 ## v0.3.0...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-env/compare/v0.3.0...main)
